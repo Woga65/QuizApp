@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizApp</title>
+
+    <!-- Bootstrap files -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- QuizApp files -->
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js" defer></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">QuizApp</span>
+        </div>
+    </nav>
+
+    <div class="quiz-container">
+        <div class="card quiz-card">
+            <img src="img/brainstorm-nerdy-girl.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" id="question">Frage</h5>
+                <div id="answers">
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            Antwort 1
+                        </div>
+                    </div>
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            Antwort 2
+                        </div>
+                    </div>
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            Antwort 3
+                        </div>
+                    </div>
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            Antwort 4
+                        </div>
+                    </div>
+                </div>
+                <div class="question-footer">
+                    <span id="processed-questions">
+                        <b id="current-question">1</b> von <b id="number-of-questions">5</b>
+                    </span>
+                    <span id="empty-span"></span>
+                    <button id="submit-answer" class="btn btn-primary">weiter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
